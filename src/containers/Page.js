@@ -4,7 +4,6 @@ import axios from 'axios';
 import Search from '../components/Search/Search';
 import Item from '../components/Item/Item';
 import Category from '../components/Category/Category';
-import Header from '../components/Header/Header';
 
 
 class Page extends Component {
@@ -30,6 +29,7 @@ class Page extends Component {
 
     inputChangeHandler = (event) => {
         this.setState({ query: event.target.value })
+        console.log(this.state.query);
     }
 
     keyPressHandler = (event) => {
@@ -83,13 +83,13 @@ class Page extends Component {
             <div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <Header> </Header>                       
+                    <Search 
+                        changed={this.inputChangeHandler}
+                        click={this.searchHandler}
+                        keyPress={this.keyPressHandler} />                   
                     </div>                    
                 </div>                
-                <Search 
-                    changed={this.inputChangeHandler}
-                    click={this.searchHandler}
-                    keyPress={this.keyPressHandler} />
+                
                 <div className="row">
                     <div className="categories col-lg-3">
                     <h4 style={{textAlign: "center"}}>Categorías</h4>
