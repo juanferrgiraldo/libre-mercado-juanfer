@@ -1,8 +1,10 @@
 import React from 'react';
 
+import "./Search.css";
+
 const search = (props) => (
-    <div>
-        <input 
+    <div className="Search">
+        <input className="" type="search"
             placeholder="Search..."
             value={props.query}
             onChange={props.changed}
