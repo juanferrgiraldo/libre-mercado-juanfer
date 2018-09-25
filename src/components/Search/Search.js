@@ -5,9 +5,10 @@ const search = (props) => (
         <input 
             placeholder="Search..."
             value={props.query}
-            onChange={props.changed}            
+            onChange={props.changed}
+            onKeyPress={props.keyPress}           
             />
-        <button onClick={props.click}>Search</button>
+        <button className="btn btn-outline-primary" onClick={props.click}><i className="fa fa-search"></i></button>
     </div>
 )
 
