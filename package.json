@@ -7,8 +7,7 @@
     "express": "^4.16.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5",
-    "postinstall": "react-scripts build"
+    "react-scripts": "1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
