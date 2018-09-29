@@ -63,6 +63,7 @@ class Page extends Component {
     }    
 
     render () {
+        this.componentDidMount;
         const categories = this.state.categories.map( category => {
             return <Category 
                     key={category.id}
