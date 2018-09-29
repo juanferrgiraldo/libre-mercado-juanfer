@@ -3,7 +3,7 @@
 **Description**
 ---------------
 In this project I used the [Mercado Libre API](https://developers.mercadolibre.com/en_us/items-and-searches#close) where the main goal is to get some products and show a few information about it.
-The app, initially, was created with [create-react-app](https://github.com/facebook/create-react-app) command and then, when it's main functionallity was finished, the app was deployed in a [Docker](url) image and [Heroku](https://libre-mercado-juanfer.herokuapp.com/) to put in practice the terms studied in class.
+The app, initially, was created with [create-react-app](https://github.com/facebook/create-react-app) command and then, when it's main functionallity was finished, the app was deployed in a [Docker](https://hub.docker.com/r/juanferrgiraldo/libre-mercado-juanfer/) image and [Heroku](https://libre-mercado-juanfer.herokuapp.com/) to put in practice the terms studied in class.
 
 **Docker guide**
 ---------------
