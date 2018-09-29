@@ -4,14 +4,20 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "express": "^4.16.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "postinstall": "react-scripts build"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "~8.9.4",
+    "npm": "~6.4.1"
   }
 }
