@@ -1,0 +1,19 @@
+.Search {
+    text-align: center;
+    background-color: #FFF159;
+    margin: 0px 0px 10px 0px;
+}
+
+button {
+    margin: 10px 5px 10px 10px;
+}
+
+a {
+    color: #2C3279;
+}
+
+.logo {
+    height: 58px;
+    width: 245px;
+    margin: 0px auto;
+}
