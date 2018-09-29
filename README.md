@@ -8,8 +8,8 @@ The app, initially, was created with [create-react-app](https://github.com/faceb
 **Docker guide**
 ---------------
 To get access to the docker images, follow the steps below:
-* Open the command line and type *docker pull juanferrgiraldo/libre-mercado-juanfer
-* Run the image with *docker run -p 8080:80 juanferrgiraldo/libre-mercado-juanfer
+* Open the command line and type *docker pull juanferrgiraldo/libre-mercado-juanfer*
+* Run the image with *docker run -p 8080:80 juanferrgiraldo/libre-mercado-juanfer*
 * Use *Ctlr + c* to finish the image excecution.
 
 **Used Guides**
